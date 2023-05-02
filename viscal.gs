@@ -8,7 +8,7 @@ const VARIABLES = [
   {name: 'End Date', defaultValue: '2023-12-31'},
   {name: 'Search Query', defaultValue: ''},
   {name: 'Filter Variable', defaultValue: ''},
-  {name: 'Sync Fields', defaultValue: 'calendarId,eventId,title,start,end,location,description,busyStatus'},
+  {name: 'Sync Fields', defaultValue: 'calendarId,eventId,title,start,end,location,description,busyStatus,ColorId'},
 ];
 
 // Global variables for Google Calendar sheet
@@ -136,6 +136,8 @@ function getEventFieldValue(event, field, calendarId) {
       return event.transparency === 'transparent' ? 'FREE' : 'BUSY';
     case 'calendarId':
       return calendarId; // Return the calendarId passed as a parameter
+    case 'colorId':
+      return event.colorId;
     default:
       return '';
   }
@@ -265,6 +267,7 @@ function createEventFromFields(fields) {
       timeZone: CalendarApp.getDefaultCalendar().getTimeZone(),
     },
     transparency: fields.busyStatus === 'FREE' ? 'transparent' : 'opaque',
+    colorId: fields.colorId,
   };
   return event;
 }
@@ -278,6 +281,7 @@ function updateEventFromFields(eventId, calendarId, fields) {
   event.start.dateTime = new Date(fields.start).toISOString();
   event.end.dateTime = new Date(fields.end).toISOString();
   event.transparency = fields.busyStatus === 'FREE' ? 'transparent' : 'opaque';
+  event.colorId = fields.colorId;
 
   const updatedEvent = Calendar.Events.update(event, calendarId, eventId);
   return updatedEvent;
