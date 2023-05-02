@@ -26,7 +26,7 @@ VISCAL is a Google Apps Script that enables bi-directional synchronization betwe
 2. Click on `Extensions` > `Apps Script`.
 3. Delete the default `Code.gs` file.
 4. Click on `File` > `New` > `Script` and name the file `VISCAL`.
-5. Copy the entire script from the [VISCAL GitHub repository](https://github.com/latetedemelon/viscal/) and paste it into the `VISCAL.gs` file.
+5. Copy the entire script from the [VISCAL GitHub repository](https://github.com/latetedemelon/viscal/viscal.gs) and paste it into the `VISCAL.gs` file.
 6. Save the script by clicking on the floppy disk icon or pressing `Ctrl + S` (or `Cmd + S` on macOS).
 7. Close the Apps Script editor.
 
@@ -48,14 +48,14 @@ VISCAL is a Google Apps Script that enables bi-directional synchronization betwe
 
 ## Options
 
-1. **Calendar ID**: Specifies the calendar to be synced with the Google Sheets document. By default, it is set to 'primary', which corresponds to the user's primary Google Calendar.
-2. **Start Date**: Sets the start date for the range of events to be fetched from the Google Calendar. The default value is '2023-01-01'.
-3. **End Date**: Sets the end date for the range of events to be fetched from the Google Calendar. The default value is '2023-12-31'.
-4. **Search Query**: Allows users to filter events by a specific search term or phrase. Only events containing the specified query will be imported into the Google Sheets document. The default value is an empty string, which means that no filter will be applied.
-5. **Filter Variable**: This can be used to implement custom filtering logic based on specific event properties. The `eventMatchesFilter()` function in the script can be modified to implement the desired filter logic. By default, it returns true for all events, meaning no filtering is applied.
-6. **Sync Fields**: This setting specifies the event properties to be synced between the Google Calendar and the Google Sheets document. The default value is 'calendarId,eventId,title,start,end,location,description,busyStatus,ColorId'. Users can add or remove properties as needed.
+1. **Calendar ID**: Specifies the calendar to be synced with the Google Sheets document. 
+2. **Start Date**: Sets the start date for the range of events to be fetched from the Google Calendar. 
+3. **End Date**: Sets the end date for the range of events to be fetched from the Google Calendar. 
+4. **Search Query**: Allows users to filter events by a specific search term or phrase. Only events containing the specified query will be imported into the Google Sheets document. 
+5. **Filter Variable**: This can be used to implement custom filtering logic based on specific event properties. 
+6. **Sync Fields**: This setting specifies the event properties to be synced between the Google Calendar and the Google Sheets document. 
 
-To modify the configuration settings, simply change the value in the second column of the corresponding row in the `Options` sheet. After making the necessary changes, run the `refreshSheet()` function to update the `Google Calendar` sheet based on the new settings.
+To modify the configuration settings, simply change the value in the second column of the corresponding row in the `Options` sheet. After making the necessary changes, `Refresh` under the `Google Calendar Sync` menu to update the `Google Calendar` sheet based on the new settings.
 
 ## Limitations
 
