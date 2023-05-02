@@ -33,15 +33,18 @@ VISCAL is a Google Apps Script that enables bi-directional synchronization betwe
 ## Usage
 
 1. After setting up the script, go back to your Google Sheet and refresh the page via the browser.
-2. Click on the `Options` sheet
-3. Click on `Google Calendar Sync` in the menu bar.
-4. Click on `Refresh` to pull the events from your calendar into the sheet.
-5. Edit the events in the `Google Calendar` sheet as needed.
+2. Click on `Google Calendar Sync` in the menu bar.
+3. Click on `Refresh` to pull the events from your calendar into the sheet.
+4. Authorize the script - This is a one time only item.
+5. Click on `Google Calendar Sync` in the menu bar.
+6. Click on `Refresh` to pull the events from your calendar into the sheet.
+7. Three should now be an `Options` Sheet available.  See below for confuration details.
+8. Edit the events in the `Google Calendar` sheet as needed.
    - Update events by changing the `ACTION` column to `UPDATE`.
    - Delete events by changing the `ACTION` column to `DELETE`.
-6. Add new rows for new events.
+9. Add new rows for new events.
    - Add new events by changing the `ACTION` column to `ADD`.
-6. Click on `Google Calendar Sync` > `Synchronize` to push the changes back to your calendar.
+10. Click on `Google Calendar Sync` > `Synchronize` to push the changes back to your calendar.
 
 ## Options
 
@@ -74,4 +77,4 @@ If you find VISCAL helpful and would like to support its development, consider m
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/latetedemelon/viscal/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/latetedemelon/viscal/blob/main/LICENSE) file for details.
