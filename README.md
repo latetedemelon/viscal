@@ -77,7 +77,7 @@ If you find VISCAL helpful and would like to support its development, consider m
 
 [[https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png|width=100px]]
 
-<img src="https://github.com/stefan-niedermann/paypal-donate-button/blob/master/paypal-donate-button.png" width="90" height="35">
+<img src="https://github.com/stefan-niedermann/paypal-donate-button/blob/master/paypal-donate-button.png" width="270" height="105">
 
 [!["Donate via PayPal"](https://github.com/stefan-niedermann/paypal-donate-button/blob/master/paypal-donate-button.png|width=90px)](https://paypal.me/latetedemelon)
 
