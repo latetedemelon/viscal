@@ -73,13 +73,12 @@ Contributions to the VISCAL project are welcome! If you have improvements, bug f
 
 If you find VISCAL helpful and would like to support its development, consider making a donation to the project. Every little bit helps!
 
-[Donate via PayPal](https://paypal.me/latetedemelon)
+
+[!["Donate via PayPal](https://github.com/stefan-niedermann/paypal-donate-button/blob/master/paypal-donate-button.png)]([https://www.buymeacoffee.com/latetedemelon](https://paypal.me/latetedemelon))
 
 <a href='https://ko-fi.com/latetedemelon' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/latetedemelon)
-
-[Donate via Buy Me a Coffee](https://bmc.link/latetedemelon)
 
 ## License
 
