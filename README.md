@@ -76,6 +76,8 @@ If you find VISCAL helpful and would like to support its development, consider m
 [Donate via PayPal](https://paypal.me/latetedemelon)
 
 <a href='https://ko-fi.com/latetedemelon' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+   
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="latetedemelon" data-color="#FFDD00" data-emoji=""  data-font="Poppins" data-text="Donation via BMC" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 
 [Donate via Buy Me a Coffee](https://bmc.link/latetedemelon)
 
