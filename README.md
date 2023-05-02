@@ -74,7 +74,9 @@ Contributions to the VISCAL project are welcome! If you have improvements, bug f
 If you find VISCAL helpful and would like to support its development, consider making a donation to the project. Every little bit helps!
 
 [Donate via PayPal](https://paypal.me/latetedemelon)
+
 [Donate via Ko-Fi](https://ko-fi.com/latetedemelon)
+
 [Donate via Buy Me a Coffee](https://bmc.link/latetedemelon)
 
 ## License
